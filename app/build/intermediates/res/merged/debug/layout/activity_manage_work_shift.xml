@@ -16,8 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/manageTurn"
-        android:textColor="@color/DimGray"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/DimGray" />
 
     <CalendarView
         android:id="@+id/calendar"
