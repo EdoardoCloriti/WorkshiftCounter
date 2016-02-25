@@ -5,6 +5,11 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/manage_work_shift.xml">
+        <config>
+          <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/start.xml">
         <config>
           <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
@@ -14,7 +19,438 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1ba86cb-8f47-4cca-ba08-a3c830e5df2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/allram/NotificationManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_2.xml" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\.idea\libraries\support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_7e5215caf469f5a99ced388bec1447448f142b08.jar" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_a80b15d6e19e74cd681154f94085576412c25c09.jar" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\color\abc_search_url_text_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-hdpi-v4\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_clear_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-mdpi-v4\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_bottom_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_bottom_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_bottom_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_bottom_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_stacked_solid_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_stacked_solid_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_stacked_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_stacked_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_transparent_dark_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ab_transparent_light_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_cab_background_bottom_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_cab_background_bottom_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_cab_background_top_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_cab_background_top_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_ab_back_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_ab_back_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_cab_done_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_cab_done_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_clear_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_clear_search_api_disabled_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_clear_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_commit_search_api_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_commit_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_go.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_go_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_moreoverflow_normal_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_moreoverflow_normal_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_share_holo_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_menu_share_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_voice_search.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_ic_voice_search_api_holo_light.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_list_divider_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_list_divider_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_menu_dropdown_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_menu_dropdown_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_menu_hardkey_panel_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_menu_hardkey_panel_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_disabled_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_disabled_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_focused_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_focused_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_pressed_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_spinner_ab_pressed_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_tab_selected_focused_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_tab_selected_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_tab_selected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_tab_unselected_pressed_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_right_default_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_right_default_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_right_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_right_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_selected_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable-xhdpi-v4\abc_textfield_search_selected_holo_light.9.png" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_ic_clear.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_ic_clear_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_search_dropdown_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_search_dropdown_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_spinner_ab_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_spinner_ab_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_tab_indicator_ab_holo.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_textfield_searchview_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_textfield_searchview_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_textfield_searchview_right_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\drawable\abc_textfield_searchview_right_holo_light.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout-v11\abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout-v14\abc_activity_chooser_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_decor.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_decor_include.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_decor_overlay.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_home.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_tab.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_bar_tabbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_action_mode_close_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\res\merged\debug\layout\abc_screen.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/AccessToDB.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/AccessToDB.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/AddOvertime.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/calendar/CalendarManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/calendar/CalendarManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/CreateWorkShift.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/DatabaseHelper.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/DatabaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/DbAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/db/DbAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/dev/DevelopmentDBUtility.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/DisplaySettimana.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayWorkShift.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayYear$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayYear$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayYear.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/display/DisplayYear.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/IDs.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/IDs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageOvertime.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageOvertime.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MounthSelection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/selection/MultiSelectionMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/NullObjectStrategy.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/NullObjectStrategy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Property.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Property.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$anim.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$attr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$bool.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectHours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/SelectOvertime.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/manageworkshift/StarlingHours.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Turn.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Turn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Week.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/Week.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterAlarmService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterAlarmService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/WorkShiftManagerSetting.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/tutorial/WorkshiftManagerTutorial$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/tutorial/WorkshiftManagerTutorial$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/tutorial/WorkshiftManagerTutorial.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/orion/workshiftmanager/util/tutorial/WorkshiftManagerTutorial.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2_fd6c0dfdd73d6caf8ca840eec1ec1bd88e686150.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/commons-lang3-3.3.2_fd6c0dfdd73d6caf8ca840eec1ec1bd88e686150.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_627fd7e478fbe59b24fc833c4543974bc12dc1b6.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_627fd7e478fbe59b24fc833c4543974bc12dc1b6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-api-client-1.20.0_3dcefa8688f041edf432f0db3adf0f295ca81cc4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-api-client-1.20.0_3dcefa8688f041edf432f0db3adf0f295ca81cc4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-api-services-calendar-v3-rev125-1.20.0_c2383c1fc69d4862bd0b46143af06b67e0852b56.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-api-services-calendar-v3-rev125-1.20.0_c2383c1fc69d4862bd0b46143af06b67e0852b56.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-http-client-1.20.0_369fd28dc8004627942647ecb1ed5c81e7d16296.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-http-client-1.20.0_369fd28dc8004627942647ecb1ed5c81e7d16296.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.20.0_19cbfe7f5aa2e6aa6ac9ce53f6a84f5aaa3856df.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-http-client-jackson2-1.20.0_19cbfe7f5aa2e6aa6ac9ce53f6a84f5aaa3856df.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.20.0_ecaf7502a72de4ffb18b6a361023525c64c629ec.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-1.20.0_ecaf7502a72de4ffb18b6a361023525c64c629ec.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-java6-1.20.0_4579677245b3ee711ab59df0a47109f5e319e3fe.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-java6-1.20.0_4579677245b3ee711ab59df0a47109f5e319e3fe.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-jetty-1.20.0_f6e1c1dfcb9d1e847603e51153ca7216fdccb47e.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/google-oauth-client-jetty-1.20.0_f6e1c1dfcb9d1e847603e51153ca7216fdccb47e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0_1ca9fb14e56ea644243dbe6a129eb2b3817fb476.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/guava-jdk5-13.0_1ca9fb14e56ea644243dbe6a129eb2b3817fb476.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_cb334271c7b34d2dcdbf026d5cd22ec5314ea3ba.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.3_cb334271c7b34d2dcdbf026d5cd22ec5314ea3ba.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jetty-6.1.26_41ef375d74d404e63105132a31717df5605b9465.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jetty-6.1.26_41ef375d74d404e63105132a31717df5605b9465.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jetty-util-6.1.26_84d83a8fc293009d3b3631c6d8f5b6d61ed10dc3.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jetty-util-6.1.26_84d83a8fc293009d3b3631c6d8f5b6d61ed10dc3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_c9b99943b0a74f761073e45e773c37b4fbca87cb.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/jsr305-1.3.9_c9b99943b0a74f761073e45e773c37b4fbca87cb.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/servlet-api-2.5-20081211_1bcf5efc23bae065eb18ad7be1b0a2a264730500.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/servlet-api-2.5-20081211_1bcf5efc23bae065eb18ad7be1b0a2a264730500.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/AddOvertime.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/AddOvertime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/orion/workshiftmanager/test/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/androidTest/debug/com/orion/workshiftmanager/test/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/orion/workshiftmanager/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/orion/workshiftmanager/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/DisplaySettimana.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/DisplaySettimana.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/display/DisplayWorkShift.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/display/DisplayWorkShift.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/orion/workshiftmanager/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/orion/workshiftmanager/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/StarlingHours.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/StarlingHours.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WorkshiftCounter.iml" afterPath="$PROJECT_DIR$/WorkshiftCounter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_manage_work_shift.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_manage_work_shift.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_manage_work_shift.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_manage_work_shift.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/anim.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-land.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-land/values-land.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-land/values-land.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-large-v4/values-large-v4.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-large-v4/values-large-v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sw600dp-v13/values-sw600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v11.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-v14.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w360dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w480dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-w480dp-v13/values-w480dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w500dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w600dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-w600dp-v13/values-w600dp-v13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-w720dp-v13.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-xlarge-v4/values-xlarge-v4.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-xlarge-v4/values-xlarge-v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="W:\WorkspaceStudio\WorkshiftCounter\.idea\libraries\appcompat_v7_18_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_2.xml" />
     </list>
     <ignored path="WorkshiftCounter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,148 +478,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WorkShiftCounterNotificationService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/start.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2941177">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkShiftCounterService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#477#478#0" expanded="false" />
-                <element signature="e#518#519#0" expanded="false" />
-                <element signature="e#571#572#0" expanded="false" />
-                <element signature="e#619#620#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WorkShiftCounterAlarmService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterAlarmService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#486#487#0" expanded="false" />
-                <element signature="e#521#522#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_application_setting.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_application_setting.xml">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="24" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkShiftManagerSetting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java">
+      <file leaf-file-name="NotificationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/allram/NotificationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.4">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="e#1800#3652#0" expanded="false" />
-                <element signature="e#3651#3652#0" expanded="false" />
-                <element signature="e#3702#3940#0" expanded="false" />
-                <element signature="e#3939#3940#0" expanded="false" />
-                <element signature="e#3976#4114#0" expanded="false" />
-                <element signature="e#4113#4114#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Looper.java" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Program File/Android/abdroid-sdks/sources/android-16/android/os/Looper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9714#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#1940#1948#0" expanded="false" />
-                <element signature="e#2471#2472#0" expanded="false" />
-                <element signature="e#2500#2501#0" expanded="false" />
-                <element signature="e#5735#5736#0" expanded="false" />
-                <element signature="e#5776#5777#0" expanded="false" />
-                <element signature="e#6235#6236#0" expanded="false" />
-                <element signature="e#6269#6270#0" expanded="false" />
-                <element signature="e#6524#6525#0" expanded="false" />
-                <element signature="e#6564#6565#0" expanded="false" />
-                <element signature="e#6871#6872#0" expanded="false" />
-                <element signature="e#6900#6901#0" expanded="false" />
-                <element signature="e#8560#8561#0" expanded="false" />
-                <element signature="e#8607#8608#0" expanded="false" />
-                <element signature="e#8710#8711#0" expanded="false" />
-                <element signature="e#8740#8741#0" expanded="false" />
-                <element signature="e#8795#8796#0" expanded="false" />
-                <element signature="e#8824#8825#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -620,9 +954,14 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:18.0.0" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:21.0.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV71800Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72102Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:21.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1167,9 +1506,14 @@
                 <option name="name" value="preReleaseUnitTestBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:18.0.0" />
+                <option name="description" value="Prepare com.android.support:appcompat-v7:21.0.2" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV71800Library" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72102Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:21.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1354,7 +1698,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="W:\WorkspaceStudio\WorkshiftCounter" value="4362910576561" />
+        <entry key="W:\WorkspaceStudio\WorkshiftCounter" value="4363137897478" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1571,16 +1915,17 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
-                            <option value="D:/Program File/Android/abdroid-sdks/extras/android/m2repository/com/android/support/appcompat-v7/18.0.0/appcompat-v7-18.0.0.aar" />
+                            <option value="D:/Program File/Android/abdroid-sdks/extras/android/m2repository/com/android/support/appcompat-v7/21.0.2/appcompat-v7-21.0.2.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.20.0/d3e66209ae9e749b2d6833761e7885f60f285564/google-api-client-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.20.0/33ce9d07291881459aacb459ab4aa20c5fb97ffc/google-oauth-client-jetty-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev125-1.20.0/fef496f895ad5be86416863153d4efbf7b601f8a/google-api-services-calendar-v3-rev125-1.20.0.jar" />
-                            <option value="D:/Program File/Android/abdroid-sdks/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar" />
+                            <option value="D:/Program File/Android/abdroid-sdks/extras/android/m2repository/com/android/support/support-v4/21.0.2/support-v4-21.0.2.aar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.20.0/1d086ac5756475ddf451af2e2df6e288d18608ca/google-oauth-client-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.20.0/2408070b2abec043624d35b35e30450f1b663858/google-http-client-jackson2-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/13.0/381ae6c8add7c98e9bcddb1e0b898400cd6fc3f7/guava-jdk5-13.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.20.0/1b12417c242005a61679ddce26636a7439d8c2fe/google-oauth-client-java6-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/jetty/6.1.26/2f546e289fddd5b1fab1d4199fbb6e9ef43ee4b0/jetty-6.1.26.jar" />
+                            <option value="D:/Program File/Android/abdroid-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.20.0/93d82db2bca534960253f43424b2ba9d7638b4d2/google-http-client-1.20.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar" />
@@ -1730,12 +2075,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterAlarmService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_application_setting.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_manage_work_shift.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/AddOvertime.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/DisplaySettimana.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/display/DisplayWorkShift.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/StarlingHours.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/allram/NotificationManager.java" />
       </list>
     </option>
   </component>
@@ -1766,7 +2120,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -1778,9 +2132,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -1790,8 +2141,192 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshiftmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshiftmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WorkshiftCounter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workshiftmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="allram" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1799,9 +2334,30 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
-    <property name="SearchEverywhereHistoryKey" value="string&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/values/strings.xml&#10;st&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/menu/start.xml&#10;sett&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java&#10;settin&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/layout/activity_application_setting.xml&#10;an&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;WorkShiftCounterNotificationService&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java&#10;manifest&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;man&#9;PSI&#9;JAVA://com.orion.workshiftmanager.WorkShiftManagerSetting" />
+    <property name="SearchEverywhereHistoryKey" value="androidm&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;star&#9;PSI&#9;JAVA://com.orion.workshiftmanager.manageworkshift.StarlingHours&#10;managewo&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/java/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.java&#10;displaywo&#9;PSI&#9;JAVA://com.orion.workshiftmanager.display.DisplayWorkShift&#10;displa&#9;PSI&#9;JAVA://com.orion.workshiftmanager.DisplaySettimana&#10;addo&#9;PSI&#9;JAVA://com.orion.workshiftmanager.manageworkshift.AddOvertime&#10;colo&#9;PSI&#9;JAVA://com.orion.workshiftmanager.R.color&#10;mana&#9;PSI&#9;JAVA://com.orion.workshiftmanager.manageworkshift.ManageWorkShift&#10;an&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;WorkShiftCounterNotificationService&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java&#10;android&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;string&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/values/strings.xml&#10;st&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/menu/start.xml&#10;sett&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java&#10;settin&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/res/layout/activity_application_setting.xml&#10;manifest&#9;FILE&#9;file://W:/WorkspaceStudio/WorkshiftCounter/app/src/main/AndroidManifest.xml&#10;man&#9;PSI&#9;JAVA://com.orion.workshiftmanager.WorkShiftManagerSetting" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="D:/Program File/Git/bin/git.exe" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Test_Android_21" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="57" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="68" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="68" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="699" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="57" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="68" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="68" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="699" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1858,6 +2414,15 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1973,12 +2538,20 @@
       <option name="number" value="Default" />
       <updated>1456317256069</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1456360990469</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1456360990469</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="91" y="91" width="1738" height="860" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1987,26 +2560,26 @@
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885056" sideWeight="0.5107181" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988507" sideWeight="0.50428724" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5107181" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988507" sideWeight="0.49571276" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.50428724" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.49785638" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.49571276" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973205" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23258306" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.49571276" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.47749197" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37084672" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.4892819" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40804598" sideWeight="0.4726688" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2021,6 +2594,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2040,184 +2617,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/start.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterAlarmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_application_setting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="e#1800#3652#0" expanded="false" />
-            <element signature="e#3651#3652#0" expanded="false" />
-            <element signature="e#3702#3940#0" expanded="false" />
-            <element signature="e#3939#3940#0" expanded="false" />
-            <element signature="e#3976#4114#0" expanded="false" />
-            <element signature="e#4113#4114#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program File/Android/abdroid-sdks/sources/android-16/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23839#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7403#7404#0" expanded="false" />
-            <element signature="e#7446#7447#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="false" />
-            <element signature="e#7808#7809#0" expanded="false" />
-            <element signature="e#10004#10005#0" expanded="false" />
-            <element signature="e#10067#10068#0" expanded="false" />
-            <element signature="e#14428#14429#0" expanded="false" />
-            <element signature="e#14480#14481#0" expanded="false" />
-            <element signature="e#15323#15324#0" expanded="false" />
-            <element signature="e#15372#15373#0" expanded="false" />
-            <element signature="e#15729#15730#0" expanded="false" />
-            <element signature="e#15784#15785#0" expanded="false" />
-            <element signature="e#20725#20726#0" expanded="false" />
-            <element signature="e#20780#20781#0" expanded="false" />
-            <element signature="e#21616#21617#0" expanded="false" />
-            <element signature="e#21675#21676#0" expanded="false" />
-            <element signature="e#22136#22137#0" expanded="false" />
-            <element signature="e#22192#22193#0" expanded="false" />
-            <element signature="e#22373#22374#0" expanded="false" />
-            <element signature="e#22403#22404#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23294#23295#0" expanded="false" />
-            <element signature="e#23682#23683#0" expanded="false" />
-            <element signature="e#23720#23721#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program File/Android/abdroid-sdks/sources/android-16/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9714#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1940#1948#0" expanded="false" />
-            <element signature="e#2471#2472#0" expanded="false" />
-            <element signature="e#2500#2501#0" expanded="false" />
-            <element signature="e#5735#5736#0" expanded="false" />
-            <element signature="e#5776#5777#0" expanded="false" />
-            <element signature="e#6235#6236#0" expanded="false" />
-            <element signature="e#6269#6270#0" expanded="false" />
-            <element signature="e#6524#6525#0" expanded="false" />
-            <element signature="e#6564#6565#0" expanded="false" />
-            <element signature="e#6871#6872#0" expanded="false" />
-            <element signature="e#6900#6901#0" expanded="false" />
-            <element signature="e#8560#8561#0" expanded="false" />
-            <element signature="e#8607#8608#0" expanded="false" />
-            <element signature="e#8710#8711#0" expanded="false" />
-            <element signature="e#8740#8741#0" expanded="false" />
-            <element signature="e#8795#8796#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program File/Android/abdroid-sdks/sources/android-16/android/app/ActivityThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2363" column="0" selection-start-line="2363" selection-start-column="0" selection-end-line="2363" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
-          <folding>
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program File/Android/abdroid-sdks/sources/android-16/android/app/IntentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2243,11 +2642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2263,34 +2657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23839#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7403#7404#0" expanded="false" />
-            <element signature="e#7446#7447#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="false" />
-            <element signature="e#7808#7809#0" expanded="false" />
-            <element signature="e#10004#10005#0" expanded="false" />
-            <element signature="e#10067#10068#0" expanded="false" />
-            <element signature="e#14428#14429#0" expanded="false" />
-            <element signature="e#14480#14481#0" expanded="false" />
-            <element signature="e#15323#15324#0" expanded="false" />
-            <element signature="e#15372#15373#0" expanded="false" />
-            <element signature="e#15729#15730#0" expanded="false" />
-            <element signature="e#15784#15785#0" expanded="false" />
-            <element signature="e#20725#20726#0" expanded="false" />
-            <element signature="e#20780#20781#0" expanded="false" />
-            <element signature="e#21616#21617#0" expanded="false" />
-            <element signature="e#21675#21676#0" expanded="false" />
-            <element signature="e#22136#22137#0" expanded="false" />
-            <element signature="e#22192#22193#0" expanded="false" />
-            <element signature="e#22373#22374#0" expanded="false" />
-            <element signature="e#22403#22404#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23294#23295#0" expanded="false" />
-            <element signature="e#23682#23683#0" expanded="false" />
-            <element signature="e#23720#23721#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2298,27 +2664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9714#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1940#1948#0" expanded="false" />
-            <element signature="e#2471#2472#0" expanded="false" />
-            <element signature="e#2500#2501#0" expanded="false" />
-            <element signature="e#5735#5736#0" expanded="false" />
-            <element signature="e#5776#5777#0" expanded="false" />
-            <element signature="e#6235#6236#0" expanded="false" />
-            <element signature="e#6269#6270#0" expanded="false" />
-            <element signature="e#6524#6525#0" expanded="false" />
-            <element signature="e#6564#6565#0" expanded="false" />
-            <element signature="e#6871#6872#0" expanded="false" />
-            <element signature="e#6900#6901#0" expanded="false" />
-            <element signature="e#8560#8561#0" expanded="false" />
-            <element signature="e#8607#8608#0" expanded="false" />
-            <element signature="e#8710#8711#0" expanded="false" />
-            <element signature="e#8740#8741#0" expanded="false" />
-            <element signature="e#8795#8796#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2361,34 +2706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23839#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7403#7404#0" expanded="false" />
-            <element signature="e#7446#7447#0" expanded="false" />
-            <element signature="e#7759#7760#0" expanded="false" />
-            <element signature="e#7808#7809#0" expanded="false" />
-            <element signature="e#10004#10005#0" expanded="false" />
-            <element signature="e#10067#10068#0" expanded="false" />
-            <element signature="e#14428#14429#0" expanded="false" />
-            <element signature="e#14480#14481#0" expanded="false" />
-            <element signature="e#15323#15324#0" expanded="false" />
-            <element signature="e#15372#15373#0" expanded="false" />
-            <element signature="e#15729#15730#0" expanded="false" />
-            <element signature="e#15784#15785#0" expanded="false" />
-            <element signature="e#20725#20726#0" expanded="false" />
-            <element signature="e#20780#20781#0" expanded="false" />
-            <element signature="e#21616#21617#0" expanded="false" />
-            <element signature="e#21675#21676#0" expanded="false" />
-            <element signature="e#22136#22137#0" expanded="false" />
-            <element signature="e#22192#22193#0" expanded="false" />
-            <element signature="e#22373#22374#0" expanded="false" />
-            <element signature="e#22403#22404#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-            <element signature="e#23294#23295#0" expanded="false" />
-            <element signature="e#23682#23683#0" expanded="false" />
-            <element signature="e#23720#23721#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2396,27 +2713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9714#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#1940#1948#0" expanded="false" />
-            <element signature="e#2471#2472#0" expanded="false" />
-            <element signature="e#2500#2501#0" expanded="false" />
-            <element signature="e#5735#5736#0" expanded="false" />
-            <element signature="e#5776#5777#0" expanded="false" />
-            <element signature="e#6235#6236#0" expanded="false" />
-            <element signature="e#6269#6270#0" expanded="false" />
-            <element signature="e#6524#6525#0" expanded="false" />
-            <element signature="e#6564#6565#0" expanded="false" />
-            <element signature="e#6871#6872#0" expanded="false" />
-            <element signature="e#6900#6901#0" expanded="false" />
-            <element signature="e#8560#8561#0" expanded="false" />
-            <element signature="e#8607#8608#0" expanded="false" />
-            <element signature="e#8710#8711#0" expanded="false" />
-            <element signature="e#8740#8741#0" expanded="false" />
-            <element signature="e#8795#8796#0" expanded="false" />
-            <element signature="e#8824#8825#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2424,25 +2720,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#486#487#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/start.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="433" column="14" selection-start-line="433" selection-start-column="14" selection-end-line="433" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/manage_work_shift.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/orion/workshiftmanager/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3142858">
+          <caret line="1167" column="40" selection-start-line="1167" selection-start-column="32" selection-end-line="1167" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_overtime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.470588">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/AddOvertime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_application_setting.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-2.8235295">
           <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding />
         </state>
@@ -2451,65 +2808,231 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/WorkShiftManagerSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="e#1800#3652#0" expanded="false" />
-            <element signature="e#3651#3652#0" expanded="false" />
-            <element signature="e#3702#3940#0" expanded="false" />
-            <element signature="e#3939#3940#0" expanded="false" />
-            <element signature="e#3976#4114#0" expanded="false" />
-            <element signature="e#4113#4114#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#477#478#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/notification/WorkShiftCounterNotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/start.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_create_work_shift.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2941177">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_development_dbutility.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_display.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_display_mouth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_display_settimana.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/DisplaySettimana.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_display_work_shift.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/display/DisplayWorkShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_manage_overtime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_manage_work_shift.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.588235">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/ManageWorkShift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="126" column="0" selection-start-line="118" selection-start-column="4" selection-end-line="126" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mounth_selection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_multi_selection_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_hours.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_overtime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_starling_hours.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8235292">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/manageworkshift/StarlingHours.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_start.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_visual_year.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_week_hour.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/orion/workshiftmanager/util/allram/NotificationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

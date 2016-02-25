@@ -17,7 +17,8 @@ ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:
 		INJECTED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml
 uses-sdk
 ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:18.0.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.2] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.2] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\AndroidManifest.xml:15:5-42
 	android:targetSdkVersion
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml
@@ -72,7 +73,8 @@ ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:23:30-85
 application
 ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:25:5-90:19
-MERGED from [com.android.support:appcompat-v7:18.0.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:appcompat-v7:21.0.2] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.2] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\AndroidManifest.xml:16:5-19
 	android:label
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:28:9-41
 	android:allowBackup

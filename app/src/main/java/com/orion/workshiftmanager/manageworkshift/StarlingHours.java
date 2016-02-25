@@ -103,13 +103,13 @@ public class StarlingHours extends Activity {
 
     private void setCalendar(CalendarView calendar) {
         calendar.setShowWeekNumber(false);
-        // setto come primo giorno della settimana il luned�
         calendar.setFirstDayOfWeek(MONDAY);
-        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.DodgerBlue));
+        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.transparent));
         calendar.setUnfocusedMonthDateColor(getResources().getColor(R.color.transparent));
         calendar.setWeekSeparatorLineColor(getResources().getColor(R.color.transparent));
-        calendar.setSelectedDateVerticalBar(R.color.darkgreen);
+        calendar.setSelectedDateVerticalBar(R.color.DarkGray);
     }
+
 
     private double validateMinutes(int newVal) {
         if (newVal > 60)

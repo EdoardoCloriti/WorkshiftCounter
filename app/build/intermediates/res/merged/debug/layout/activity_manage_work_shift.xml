@@ -44,4 +44,12 @@
         android:layout_below="@+id/calendar"
         android:text="@string/submit_upper" />
 
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_above="@+id/submit"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="723dp" />
+
 </RelativeLayout>

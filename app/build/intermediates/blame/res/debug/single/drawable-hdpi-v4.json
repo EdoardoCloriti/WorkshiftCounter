@@ -12,6 +12,10 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_solid_dark_holo.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_selected_pressed_holo.9.png"
     },
@@ -32,52 +36,60 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-hdpi\\ic_arrow_up_gray.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_unselected_pressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_divider_holo_light.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_selected_holo_light.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_disabled_holo_light.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_normal.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_normal_holo_dark.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_search_api_holo_light.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_normal.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_transparent_dark_holo.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_holo_light.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_search_api_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background2white.jpg",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\drawable-hdpi\\background2white.jpg"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_selected_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_dark.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_selected_holo_dark.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_dark.9.png",
@@ -89,19 +101,19 @@
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_go.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_focused_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_holo_light.png",
@@ -132,32 +144,36 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_commit_search_api_holo_light.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_search.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_focused_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_selected_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_light.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_solid_light_holo.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_selected_holo.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_solid_light_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png",
@@ -196,24 +212,32 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_cab_done_holo_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_selected_holo_light.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_dark.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_cab_done_holo_dark.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_default_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_stacked_solid_dark_holo.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_stacked_solid_dark_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_stacked_solid_dark_holo.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_light_holo.9.png",
@@ -240,6 +264,10 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_solid_dark_holo.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_light.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_holo_light.png"
     },
@@ -264,12 +292,12 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_transparent_light_holo.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_default_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_dark.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_default_holo_dark.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_light_holo.9.png",
@@ -280,12 +308,16 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_hardkey_panel_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_top_holo_light.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_default_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_top_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
@@ -296,16 +328,20 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_hardkey_panel_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_up_blue.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-hdpi\\ic_arrow_up_blue.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_dropdown_panel_holo_dark.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_up_blue.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-hdpi\\ic_arrow_up_blue.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_disabled_holo_light.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_search_api_disabled_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.jpg",
@@ -322,6 +358,10 @@
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_default_holo_light.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_default_holo_light.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_right_selected_holo_light.9.png",
@@ -348,36 +388,48 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_hardkey_panel_holo_light.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_go.png"
     },
     {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_up_blue_soft.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-hdpi\\ic_arrow_up_blue_soft.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_disabled_holo_light.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_arrow_up_blue_soft.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-hdpi\\ic_arrow_up_blue_soft.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_transparent_dark_holo.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_transparent_dark_holo.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_ab_back_holo_dark.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_ab_back_holo_dark.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_light.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_pressed_holo_light.9.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_transparent_dark_holo.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_transparent_dark_holo.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background2grey.jpg",
@@ -400,6 +452,14 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_focused_holo_dark.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_focused_holo_dark.9.png"
     },
@@ -409,7 +469,7 @@
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_holo_dark.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ab_share_pack_holo_dark.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_pressed_holo_dark.9.png",
@@ -428,36 +488,44 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_solid_dark_holo.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_selected_holo_dark.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_disabled.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_top_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_solid_light_holo.9.png"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_disabled.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_disabled.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_selected_holo_dark.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_solid_light_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_default_holo_light.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_unselected_pressed_holo.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_disabled.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_disabled.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_cab_done_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_unselected_pressed_holo.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
@@ -472,12 +540,20 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\drawable-hdpi\\background3.jpg"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_search_api_holo_light.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_clear_search_api_holo_light.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_holo_light.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_commit_search_api_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_dark.png",
@@ -492,28 +568,36 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_pressed_holo_light.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_voice_search_api_holo_light.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_divider_holo_light.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_voice_search_api_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_holo_dark.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_bottom_holo_dark.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_light.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_divider_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_pressed_holo.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_tab_selected_pressed_holo.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_dark.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_bottom_holo_dark.9.png"
+    },
+    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ab_share_pack_holo_light.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_holo_light.9.png",
@@ -526,6 +610,10 @@
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_moreoverflow_normal_holo_light.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_normal_holo_light.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
@@ -541,7 +629,7 @@
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_clear_normal.png",
@@ -556,6 +644,10 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_menu_dropdown_panel_holo_light.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_selected_holo_dark.9.png"
     },
@@ -564,12 +656,28 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_textfield_search_right_default_holo_light.9.png"
     },
     {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_bottom_holo_light.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_bottom_holo_light.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_holo_light.9.png",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_holo_dark.9.png",
@@ -588,16 +696,20 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_stacked_transparent_dark_holo.9.png"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_default_holo_light.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_solid_dark_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_solid_light_holo.9.png",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_solid_light_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_bottom_solid_dark_holo.9.png"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_ab_default_holo_light.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_spinner_ab_default_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_cab_done_holo_light.png",
@@ -608,12 +720,12 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_ab_stacked_solid_light_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.jpg",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\drawable-hdpi\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_selected_holo.9.png",
@@ -621,6 +733,10 @@
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
     }
 ]
