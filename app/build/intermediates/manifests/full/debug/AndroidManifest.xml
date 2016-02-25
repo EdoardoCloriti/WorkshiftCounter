@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.orion.workshiftmanager"
+    android:versionCode="1"
+    android:versionName="0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- Permission usata per la sveglia -->
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- service per le notifiche dell'applicazione -->
+        <service
+            android:name="com.orion.workshiftmanager.util.notification.WorkShiftCounterNotificationService"
+            android:enabled="true" />
+        <service
+            android:name="com.orion.workshiftmanager.util.notification.WorkShiftCounterAlarmService"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.orion.workshiftmanager.WorkShiftManager"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.orion.workshiftmanager.WorkShiftManagerSetting"
+            android:label="@string/title_activity_application_setting" />
+        <activity
+            android:name="com.orion.workshiftmanager.selection.MultiSelectionMenu"
+            android:label="@string/title_activity_multi_selection_menu" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.ManageWorkShift"
+            android:label="@string/title_activity_manage_work_shift" />
+        <activity
+            android:name="com.orion.workshiftmanager.util.dev.DevelopmentDBUtility"
+            android:label="@string/title_activity_development_dbutility" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.CreateWorkShift"
+            android:label="@string/title_activity_create_work_shift" />
+        <activity
+            android:name="com.orion.workshiftmanager.display.DisplayWorkShift"
+            android:label="@string/title_activity_display_work_shift" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.SelectHours"
+            android:label="@string/title_activity_select_hours" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.AddOvertime"
+            android:label="@string/title_activity_add_overtime" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.ManageOvertime"
+            android:label="@string/title_activity_manage_overtime" />
+        <activity
+            android:name="com.orion.workshiftmanager.selection.MounthSelection"
+            android:label="@string/title_activity_mounth_selection" />
+        <activity
+            android:name="com.orion.workshiftmanager.display.DisplayYear"
+            android:label="@string/title_activity_visual_year" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.StarlingHours"
+            android:label="@string/title_activity_starling_hours" />
+        <activity
+            android:name="com.orion.workshiftmanager.manageworkshift.SelectOvertime"
+            android:label="@string/title_activity_select_overtime" />
+        <activity
+            android:name="com.orion.workshiftmanager.DisplaySettimana"
+            android:label="@string/title_activity_display_settimana" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.orion.workshiftmanager"
+        minSdkVersion 16
+        targetSdkVersion 16
+        versionCode 1
+        versionName "0.3"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "org.apache.commons:commons-lang3:3.3.2"
+    compile 'com.android.support:appcompat-v7:18.0.0'
+    compile 'com.google.api-client:google-api-client:1.20.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.20.0'
+    compile 'com.google.apis:google-api-services-calendar:v3-rev125-1.20.0'
+}

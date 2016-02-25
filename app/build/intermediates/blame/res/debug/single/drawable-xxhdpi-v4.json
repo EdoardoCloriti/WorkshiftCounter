@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_arrow_up_gray.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-xxhdpi\\ic_arrow_up_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_arrow_up_blue.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-xxhdpi\\ic_arrow_up_blue.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_arrow_up_gray_soft.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-xxhdpi\\ic_arrow_up_gray_soft.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_arrow_up_blue_soft.png",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\drawable-xxhdpi\\ic_arrow_up_blue_soft.png"
+    }
+]
