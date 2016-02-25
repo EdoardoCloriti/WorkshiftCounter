@@ -13,10 +13,14 @@ public abstract class WorkShiftCounterService extends IntentService {
 
     protected static final String PATTERN = "dd/MM/yyyy";
     protected int hourToNotify = 0;
-    protected Context context= this;
+    protected Context context;
 
     public WorkShiftCounterService() {
         super("WorkShiftManager");
+    }
+
+    public void setContext(Context context) {
+        this.context = context;
     }
 
     public void setHourToNotify(int hourToNotify) {
@@ -27,19 +31,11 @@ public abstract class WorkShiftCounterService extends IntentService {
     protected void onHandleIntent(Intent intent) {
         while (true) {
             specializedNotify();
-            //sleep();
-        }
-    }
-
-    private void sleep() {
-        try {
-            TimeUnit.HOURS.sleep(hourToNotify);
-        } catch (InterruptedException e) {
-            return;
-        }
-        catch (Exception e)
-        {
-            return;
+            try {
+                TimeUnit.HOURS.sleep(hourToNotify);
+            } catch (InterruptedException e) {
+                continue;
+            }
         }
     }
 

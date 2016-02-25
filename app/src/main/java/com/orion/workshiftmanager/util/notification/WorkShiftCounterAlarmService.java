@@ -15,9 +15,9 @@ import java.util.Calendar;
  */
 public class WorkShiftCounterAlarmService extends WorkShiftCounterService {
 
-    public WorkShiftCounterAlarmService()
-    {
+    public WorkShiftCounterAlarmService(Context context) {
         setHourToNotify(24);
+        setContext(context);
     }
 
     @Override

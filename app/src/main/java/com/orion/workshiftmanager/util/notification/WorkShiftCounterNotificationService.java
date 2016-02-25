@@ -1,6 +1,5 @@
 package com.orion.workshiftmanager.util.notification;
 
-import android.app.Activity;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.media.RingtoneManager;
@@ -23,14 +22,14 @@ public class WorkShiftCounterNotificationService extends WorkShiftCounterService
 
     private NotificationManager manager = null;
 
-    public WorkShiftCounterNotificationService() {
-        super();
+    public WorkShiftCounterNotificationService(Context context) {
+        setContext(context);
         setHourToNotify(1);
-
+        this.manager = (NotificationManager) context.getSystemService(NOTIFICATION_SERVICE);
     }
 
-    public void createNotify(String turnoInizio, String turnoFine, Context context) {
-        this.manager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+
+    public void createNotify(String turnoInizio, String turnoFine) {
         Uri sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
         builder.setContentTitle("Il tuo turno sta per cominciare");
@@ -44,7 +43,7 @@ public class WorkShiftCounterNotificationService extends WorkShiftCounterService
     @Override
     public void specializedNotify() {
         String HourPattern = PATTERN + "hh:mm";
-        SimpleDateFormat sdf = new SimpleDateFormat(PATTERN);
+        SimpleDateFormat sdf = new SimpleDateFormat(HourPattern);
         Date inizioTurnoM;
         Date inizioTurnoP;
         Calendar calendar;
@@ -64,9 +63,9 @@ public class WorkShiftCounterNotificationService extends WorkShiftCounterService
             }
 
             if (inizioTurnoM.before(calendar.getTime())) ;
-            createNotify(turn.getInizioMattina(), turn.getFineMattina(),context);
+            createNotify(turn.getInizioMattina(), turn.getFineMattina());
             if (inizioTurnoP.before(calendar.getTime())) ;
-            createNotify(turn.getInizioPomeriggio(), turn.getFinePomeriggio(),context);
+            createNotify(turn.getInizioPomeriggio(), turn.getFinePomeriggio());
         }
     }
 }

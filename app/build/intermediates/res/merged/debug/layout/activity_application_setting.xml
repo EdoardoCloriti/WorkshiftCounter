@@ -72,7 +72,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignRight="@+id/submit" />
 
-    <CheckBox
+    <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/allarm"
@@ -81,7 +81,7 @@
         android:layout_alignParentLeft="true"
         android:checked="false" />
 
-    <CheckBox
+    <RadioButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/notifiche"

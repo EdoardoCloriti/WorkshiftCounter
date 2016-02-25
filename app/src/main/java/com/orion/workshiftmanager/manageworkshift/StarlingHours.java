@@ -1,10 +1,5 @@
 package com.orion.workshiftmanager.manageworkshift;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.GregorianCalendar;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -25,6 +20,11 @@ import com.orion.workshiftmanager.util.IDs;
 import com.orion.workshiftmanager.util.Turn;
 import com.orion.workshiftmanager.util.db.AccessToDB;
 import com.orion.workshiftmanager.util.tutorial.WorkshiftManagerTutorial;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.GregorianCalendar;
+import java.util.List;
 
 public class StarlingHours extends Activity {
 
@@ -103,13 +103,13 @@ public class StarlingHours extends Activity {
 
     private void setCalendar(CalendarView calendar) {
         calendar.setShowWeekNumber(false);
+        // setto come primo giorno della settimana il luned�
         calendar.setFirstDayOfWeek(MONDAY);
-        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.transparent));
+        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.DodgerBlue));
         calendar.setUnfocusedMonthDateColor(getResources().getColor(R.color.transparent));
         calendar.setWeekSeparatorLineColor(getResources().getColor(R.color.transparent));
-        calendar.setSelectedDateVerticalBar(R.color.DarkGray);
+        calendar.setSelectedDateVerticalBar(R.color.darkgreen);
     }
-
 
     private double validateMinutes(int newVal) {
         if (newVal > 60)

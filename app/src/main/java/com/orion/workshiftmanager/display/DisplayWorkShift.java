@@ -75,13 +75,13 @@ public class DisplayWorkShift extends Activity {
 
     private void setCalendar(CalendarView calendar) {
         calendar.setShowWeekNumber(false);
+        // setto come primo giorno della settimana il lunedì
         calendar.setFirstDayOfWeek(MONDAY);
-        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.transparent));
+        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.DodgerBlue));
         calendar.setUnfocusedMonthDateColor(getResources().getColor(R.color.transparent));
         calendar.setWeekSeparatorLineColor(getResources().getColor(R.color.transparent));
-        calendar.setSelectedDateVerticalBar(R.color.DarkGray);
+        calendar.setSelectedDateVerticalBar(R.color.darkgreen);
     }
-
 
     private void visualTurn(Turn turn) {
         setContentView(R.layout.activity_display);

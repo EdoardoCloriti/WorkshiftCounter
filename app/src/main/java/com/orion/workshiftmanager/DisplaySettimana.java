@@ -1,7 +1,7 @@
 package com.orion.workshiftmanager;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -60,13 +60,13 @@ public class DisplaySettimana extends Activity {
 
     private void setCalendar(CalendarView calendar) {
         calendar.setShowWeekNumber(false);
+        // setto come primo giorno della settimana il lunedì
         calendar.setFirstDayOfWeek(MONDAY);
-        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.transparent));
+        calendar.setSelectedWeekBackgroundColor(getResources().getColor(R.color.DodgerBlue));
         calendar.setUnfocusedMonthDateColor(getResources().getColor(R.color.transparent));
         calendar.setWeekSeparatorLineColor(getResources().getColor(R.color.transparent));
-        calendar.setSelectedDateVerticalBar(R.color.DarkGray);
+        calendar.setSelectedDateVerticalBar(R.color.darkgreen);
     }
-
 
     private void visualWeek(Week week) {
         setContentView(R.layout.activity_week_hour);
