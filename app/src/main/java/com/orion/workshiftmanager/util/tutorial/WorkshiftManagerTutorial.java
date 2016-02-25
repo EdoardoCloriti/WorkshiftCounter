@@ -3,8 +3,6 @@ package com.orion.workshiftmanager.util.tutorial;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.database.DatabaseUtils;
-import android.widget.Toast;
 
 import com.orion.workshiftmanager.R;
 import com.orion.workshiftmanager.util.Property;
@@ -41,6 +39,7 @@ public class WorkshiftManagerTutorial {
                 dialog.cancel();
             }
         });
+        builder.create();
         builder.show();
 
     }
