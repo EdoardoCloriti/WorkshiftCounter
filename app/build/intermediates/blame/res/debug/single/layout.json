@@ -4,12 +4,12 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_overtime.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_select_overtime.xml"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_development_dbutility.xml",
@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_multi_selection_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
-    },
-    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display_mouth.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_display_mouth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\roboto_calendar_week_1.xml",
@@ -92,20 +92,20 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_calendar_title_layout.xml",
@@ -124,36 +124,36 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.github.npanigrahy\\Custom-Calendar-View\\v1.0\\res\\layout\\roboto_calendar_week_6.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manage_work_shift.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_manage_work_shift.xml"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_screen.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_display.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_display.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manage_work_shift.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_manage_work_shift.xml"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_work_shift.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_create_work_shift.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_work_shift.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_create_work_shift.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_hours.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_select_hours.xml"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_work_shift.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_create_work_shift.xml"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -184,12 +184,12 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_overtime.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_add_overtime.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_overtime.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_add_overtime.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
@@ -208,12 +208,12 @@
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tab.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_calendar_layout.xml",
@@ -284,16 +284,16 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_starling_hours.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_development_dbutility.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_development_dbutility.xml"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_development_dbutility.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_development_dbutility.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -312,28 +312,28 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visual_year.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_visual_year.xml"
+    },
+    {
+        "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_overtime.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_select_overtime.xml"
     },
     {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_start.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_overtime.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_select_overtime.xml"
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "C:\\Users\\Edoardo\\StudioProjects\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
@@ -372,11 +372,11 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_week_hour.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_manage_overtime.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\src\\main\\res\\layout\\activity_manage_overtime.xml"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
     }
 ]

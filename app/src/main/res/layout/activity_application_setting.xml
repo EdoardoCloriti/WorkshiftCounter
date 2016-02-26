@@ -62,17 +62,8 @@
         android:text="@string/orecontratto"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
-        android:id="@+id/dev"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/submit"
-        android:layout_alignParentLeft="true"
-        android:layout_alignRight="@+id/submit"
-        android:text="@string/dev_mode"
-        android:textColor="@color/YellowGreen" />
 
-    <RadioButton
+    <CheckBox
         android:id="@+id/activeAllarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -81,7 +72,7 @@
         android:checked="false"
         android:text="@string/allarm" />
 
-    <RadioButton
+    <CheckBox
         android:id="@+id/notify"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

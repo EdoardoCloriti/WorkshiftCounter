@@ -10,12 +10,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.orion.workshiftmanager.selection.MultiSelectionMenu;
 import com.orion.workshiftmanager.util.Property;
 import com.orion.workshiftmanager.util.db.AccessToDB;
-import com.orion.workshiftmanager.util.tutorial.WorkshiftManagerTutorial;
 
 public class WorkShiftManager extends Activity {
 

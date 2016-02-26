@@ -15,6 +15,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
     <!-- Permission usata per la sveglia -->
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
 
@@ -78,6 +79,10 @@
         <activity
             android:name="com.orion.workshiftmanager.DisplaySettimana"
             android:label="@string/title_activity_display_settimana" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

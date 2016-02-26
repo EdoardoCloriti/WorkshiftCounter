@@ -1,7 +1,6 @@
 package com.orion.workshiftmanager.manageworkshift;
 
 import android.app.Activity;
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,8 +12,6 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
@@ -191,15 +188,9 @@ public class SelectHours extends Activity {
 
     private boolean verifyInitHour(String orario, int hour) {
         if ("am".equalsIgnoreCase(orario)) {
-            if (hour > 13)
-                return false;
-            else
-                return true;
+            return hour <= 13;
         } else if ("pm".equalsIgnoreCase(orario)) {
-            if (hour < 13)
-                return false;
-            else
-                return true;
+            return hour >= 13;
         }
         return false;
     }

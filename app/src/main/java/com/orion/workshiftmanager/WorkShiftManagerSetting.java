@@ -9,14 +9,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.orion.workshiftmanager.selection.MultiSelectionMenu;
 import com.orion.workshiftmanager.util.Property;
 import com.orion.workshiftmanager.util.db.AccessToDB;
-import com.orion.workshiftmanager.util.dev.DevelopmentDBUtility;
 import com.orion.workshiftmanager.util.notification.WorkShiftCounterAlarmService;
 import com.orion.workshiftmanager.util.notification.WorkShiftCounterNotificationService;
 
@@ -37,7 +36,6 @@ public class WorkShiftManagerSetting extends Activity {
         AccessToDB db = new AccessToDB();
         e = new Intent(getApplicationContext(), ErrorHandler.class);
         m = new Intent(getApplicationContext(), MultiSelectionMenu.class);
-        Button developmentUtility = (Button) findViewById(R.id.dev);
         Button submit = (Button) findViewById(R.id.submit);
         Button back = (Button) findViewById(R.id.back);
 
@@ -51,8 +49,8 @@ public class WorkShiftManagerSetting extends Activity {
             @Override
             public void onClick(View v) {
                 EditText oreContratto = (EditText) findViewById(R.id.ore);
-                RadioButton allarm = (RadioButton) findViewById(R.id.activeAllarm);
-                RadioButton notify = (RadioButton) findViewById(R.id.notify);
+                CheckBox allarm = (CheckBox) findViewById(R.id.activeAllarm);
+                CheckBox notify = (CheckBox) findViewById(R.id.notify);
                 boolean check = true;
                 String ore = oreContratto.getText().toString();
                 AccessToDB db = new AccessToDB();
@@ -88,15 +86,6 @@ public class WorkShiftManagerSetting extends Activity {
             }
         });
 
-        developmentUtility.setOnClickListener(new OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), DevelopmentDBUtility.class);
-                startActivity(i);
-            }
-        });
-
         back.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -120,7 +109,7 @@ public class WorkShiftManagerSetting extends Activity {
     }
 
     private void setStateAllarm(AccessToDB db) {
-        RadioButton allarm = (RadioButton) findViewById(R.id.activeAllarm);
+        CheckBox allarm = (CheckBox) findViewById(R.id.activeAllarm);
         if (db.existPropery(Property.ALLARM, getApplicationContext()) != 0) {
             Property notifyPr = db.getProperty(Property.ALLARM, getApplicationContext());
             if ("true".equals(notifyPr.getValue()))
@@ -132,7 +121,7 @@ public class WorkShiftManagerSetting extends Activity {
     }
 
     private void setStateNotify(AccessToDB db) {
-        RadioButton notify = (RadioButton) findViewById(R.id.notify);
+        CheckBox notify = (CheckBox) findViewById(R.id.notify);
         if (db.existPropery(Property.NOTIFICA, getApplicationContext()) != 0) {
             Property notifyPr = db.getProperty(Property.NOTIFICA, getApplicationContext());
             if ("true".equals(notifyPr.getValue()))
@@ -143,7 +132,7 @@ public class WorkShiftManagerSetting extends Activity {
             notify.setChecked(false);
     }
 
-    private void manageAlarm(RadioButton allarm, AccessToDB db) {
+    private void manageAlarm(CheckBox allarm, AccessToDB db) {
         if (allarm.isChecked()) {
             Property activeAllarm = new Property();
             activeAllarm.setProperty(Property.ALLARM);
@@ -176,7 +165,7 @@ public class WorkShiftManagerSetting extends Activity {
     }
 
 
-    private void mangaeNotify(RadioButton notify, AccessToDB db) {
+    private void mangaeNotify(CheckBox notify, AccessToDB db) {
         if (notify.isChecked()) {
             Property activeNotify = new Property();
             activeNotify.setProperty(Property.NOTIFICA);

@@ -19,7 +19,6 @@ import com.orion.workshiftmanager.display.DisplayYear;
 import com.orion.workshiftmanager.manageworkshift.AddOvertime;
 import com.orion.workshiftmanager.manageworkshift.ManageWorkShift;
 import com.orion.workshiftmanager.manageworkshift.StarlingHours;
-import com.orion.workshiftmanager.util.tutorial.WorkshiftManagerTutorial;
 
 public class MultiSelectionMenu extends Activity {
 

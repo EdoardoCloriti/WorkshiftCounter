@@ -11,7 +11,6 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.orion.workshiftmanager.R;
 import com.orion.workshiftmanager.util.IDs;
