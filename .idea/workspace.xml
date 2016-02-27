@@ -2172,7 +2172,13 @@
       <option name="project" value="WSC" />
       <updated>1456598504371</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="setting delle impostazioni">
+      <created>1456598640959</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1456598640959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <YouTrack shared="false" url="https://edoardo-cloriti.myjetbrains.com/youtrack">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -2191,8 +2197,8 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1924" height="1060" extended-state="0" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1924" height="1060" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2245,9 +2251,9 @@
     <MESSAGE value="cambiata grafica del calendario - colori" />
     <MESSAGE value="creazione dei servidi di calendar&#10;" />
     <MESSAGE value="Fix del Dialog Builder" />
-    <MESSAGE value="setting delle impostazioni" />
     <MESSAGE value="WSC-10 Separazione Activity Selezione Giorno e Display turno" />
-    <option name="LAST_COMMIT_MESSAGE" value="WSC-10 Separazione Activity Selezione Giorno e Display turno" />
+    <MESSAGE value="setting delle impostazioni" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting delle impostazioni" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
