@@ -125,5 +125,6 @@
     <string name="title_activity_select_overtime">SelectOvertime</string>
     <string name="title_activity_select_staling_hour">SelectStalingHour</string>
     <string name="title_activity_display_settimana">DisplaySettimana</string>
+    <string name="title_activity_display_turn">DisplayTurn</string>
 
 </resources>
