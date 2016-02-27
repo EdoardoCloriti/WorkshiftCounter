@@ -78,8 +78,10 @@
             android:label="@string/title_activity_select_overtime" />
         <activity
             android:name=".DisplaySettimana"
-            android:label="@string/title_activity_display_settimana"></activity>
-
+            android:label="@string/title_activity_display_settimana" />
+        <activity
+            android:name=".display.DisplayTurn"
+            android:label="@string/title_activity_display_turn"></activity>
     </application>
 
 </manifest>
