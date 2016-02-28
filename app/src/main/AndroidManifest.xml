@@ -81,7 +81,10 @@
             android:label="@string/title_activity_display_settimana" />
         <activity
             android:name=".display.DisplayTurn"
-            android:label="@string/title_activity_display_turn"></activity>
+            android:label="@string/title_activity_display_turn" />
+        <activity
+            android:name=".DisplayHourWeek"
+            android:label="@string/title_activity_display_hour_week"></activity>
     </application>
 
 </manifest>
