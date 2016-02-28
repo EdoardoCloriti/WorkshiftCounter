@@ -47,8 +47,11 @@ public class WorkShiftManager extends Activity {
             Date cleaning = sdf.parse(CLEANING_DATE);
             if (sysCalendar.getTime().equals(cleaning)) {
                 AccessToDB db = new AccessToDB();
-                int year = sysCalendar.get(Calendar.YEAR) - 1;
-                db.clearTurnByYear(year, getApplicationContext());
+                int year = sysCalendar.get(Calendar.YEAR);
+                int yearAnnual = sysCalendar.get(Calendar.YEAR) - 1;
+                int yearBiannual = sysCalendar.get(Calendar.YEAR) - 2;
+                db.clearTurnByYear(yearAnnual, getApplicationContext());
+                db.cleanWeekByYearToYear(yearBiannual, year, getApplicationContext());
                 Toast.makeText(getApplicationContext(), "Effettuata pulizia annuale di turni", Toast.LENGTH_LONG).show();
             }
         } catch (Exception e) {

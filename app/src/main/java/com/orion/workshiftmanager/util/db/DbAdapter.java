@@ -142,6 +142,11 @@ public class DbAdapter {
         return mcursor;
     }
 
+    public Cursor fetchMounthByYear(int year) {
+        Cursor mcursor = database.query(HOUR_DATABASE_TABLE, new String[]{ID, WEEK_ID, YEAR, HOUR, MOUNTH, OVERTIME}, YEAR + "=?", new String[]{Integer.toString(year)}, null, null, null, null);
+        return mcursor;
+    }
+
     public Cursor fetchYear(int year) {
         Cursor mcursor = database.query(HOUR_DATABASE_TABLE, new String[]{ID, WEEK_ID, YEAR, HOUR, MOUNTH, OVERTIME}, YEAR + "=?", new String[]{Integer.toString(year)}, null, null, null, null);
         return mcursor;
