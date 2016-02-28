@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.orion.workshiftmanager.R;
 import com.orion.workshiftmanager.util.Turn;
-import com.orion.workshiftmanager.util.db.AccessToDB;
 
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
@@ -38,13 +37,12 @@ public class DisplayWorkShift extends Activity {
                 SimpleDateFormat sdf = new SimpleDateFormat(Turn.PATTERN);
                 String selectedDay = new String(sdf.format(day.getTime()));
                 Toast.makeText(getApplicationContext(), selectedDay, Toast.LENGTH_SHORT).show();
-                AccessToDB db = new AccessToDB();
-                Turn turn = db.getTurnBySelectedDay(selectedDay, getApplicationContext());
-                Turn.intentByTurn(i, turn);
+                i.putExtra("SELECTED_DAY", selectedDay);
                 startActivity(i);
             }
 
         });
+
 
         back.setOnClickListener(new View.OnClickListener() {
 

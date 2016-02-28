@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.orion.workshiftmanager.R;
 import com.orion.workshiftmanager.util.Turn;
+import com.orion.workshiftmanager.util.db.AccessToDB;
 
 public class DisplayTurn extends Activity {
 
@@ -17,7 +18,9 @@ public class DisplayTurn extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
         final Bundle inputBundle = this.getIntent().getExtras();
-        Turn turn = Turn.turnByBundle(inputBundle);
+        String selectedDay = inputBundle.getString("SELECTED_DAY");
+        AccessToDB db = new AccessToDB();
+        Turn turn = db.getTurnBySelectedDay(selectedDay, getApplicationContext());
         setContentView(R.layout.activity_display_turn);
 
         TextView title = (TextView) findViewById(R.id.title);
