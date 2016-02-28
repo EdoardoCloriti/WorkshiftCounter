@@ -10,12 +10,20 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.orion.workshiftmanager.selection.MultiSelectionMenu;
 import com.orion.workshiftmanager.util.Property;
 import com.orion.workshiftmanager.util.db.AccessToDB;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 public class WorkShiftManager extends Activity {
+
+    private final static String PATTERN = "dd/MM/yyyy";
+    private String CLEANING_DATE = "16/02/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +39,21 @@ public class WorkShiftManager extends Activity {
         // creazione del button di ingresso dell'appicazione
         Button startButton = (Button) findViewById(R.id.startbutton);
         super.onCreate(savedInstanceState);
+
+        Calendar sysCalendar = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat(PATTERN);
+        try {
+            CLEANING_DATE = CLEANING_DATE + sysCalendar.get(Calendar.YEAR);
+            Date cleaning = sdf.parse(CLEANING_DATE);
+            if (sysCalendar.getTime().equals(cleaning)) {
+                AccessToDB db = new AccessToDB();
+                int year = sysCalendar.get(Calendar.YEAR) - 1;
+                db.clearTurnByYear(year, getApplicationContext());
+                Toast.makeText(getApplicationContext(), "Effettuata pulizia annuale di turni", Toast.LENGTH_LONG).show();
+            }
+        } catch (Exception e) {
+            Toast.makeText(getApplicationContext(), "Impossibile Effettuare la  pulizia annuale di turni", Toast.LENGTH_LONG).show();
+        }
 
 
         startButton.setOnClickListener(new OnClickListener() {

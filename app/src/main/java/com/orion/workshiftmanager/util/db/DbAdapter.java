@@ -1,7 +1,5 @@
 package com.orion.workshiftmanager.util.db;
 
-import java.text.SimpleDateFormat;
-
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,11 +7,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.ParseException;
 
-public class DbAdapter {
+import java.text.SimpleDateFormat;
 
-    private Context context;
-    private SQLiteDatabase database;
-    private DatabaseHelper dbHelper;
+public class DbAdapter {
 
     // COLONNE TABELLA TURN
     // id del DB NUMBER
@@ -37,7 +33,6 @@ public class DbAdapter {
     public static final String HOUR = "hour";
     // priority NUMBER priorita dell'impegno inserito -> bisogna creare un mapping
     public static final String PRIORITY = "priority";
-
     // property TEXT not null
     public static final String PROPERTY = "property";
     // value TEXT not null
@@ -46,7 +41,9 @@ public class DbAdapter {
     private static final String TURN_DATABASE_TABLE = "turn";
     private static final String HOUR_DATABASE_TABLE = "hour";
     private static final String SETTING_DATABASE_TABLE = "setting";
-
+    private Context context;
+    private SQLiteDatabase database;
+    private DatabaseHelper dbHelper;
     @SuppressLint("SimpleDateFormat")
     private SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
 
@@ -95,6 +92,11 @@ public class DbAdapter {
     public Cursor fetchTurnByDate(String referenceDate) throws ParseException {
         Cursor mCursor = database.query(TURN_DATABASE_TABLE, new String[]{ID, WEEK_ID, YEAR, REFERENCE_DATE, MATTINA_INIZIO, MATTINA_FINE, POMERIGGIO_INIZIO, POMERIGGIO_FINE, OVERTIME, HOUR, PRIORITY}, REFERENCE_DATE + "=?", new String[]{referenceDate}, null, null, null);
 
+        return mCursor;
+    }
+
+    public Cursor fetchTurnByYear(int year) {
+        Cursor mCursor = database.query(TURN_DATABASE_TABLE, new String[]{ID, WEEK_ID, YEAR, REFERENCE_DATE, MATTINA_INIZIO, MATTINA_FINE, POMERIGGIO_INIZIO, POMERIGGIO_FINE, OVERTIME, HOUR, PRIORITY}, YEAR + "=?", new String[]{Integer.toString(year)}, null, null, null);
         return mCursor;
     }
 

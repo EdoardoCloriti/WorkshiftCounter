@@ -72,7 +72,7 @@ public class DisplayTurn extends Activity {
                 CheckBox cancella = (CheckBox) findViewById(R.id.delete);
                 if (cancella.isChecked()) {
                     AccessToDB db = new AccessToDB();
-                    db.deleteTurn(turn, getApplicationContext());
+                    db.deleteTurnAndUpdateWeek(turn, getApplicationContext());
                 }
                 finish();
 
