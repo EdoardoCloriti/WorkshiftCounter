@@ -68,7 +68,7 @@
     <string name="display_ore">ORE:</string>
     <string name="inizio">INIZIO:</string>
     <string name="fine">FINE:</string>
-
+    <string name="cancella">Elimina Turno</string>
     <!-- visualYear -->
     <string name="anno">Anno:</string>
     <string name="gennaio">Gennaio</string>

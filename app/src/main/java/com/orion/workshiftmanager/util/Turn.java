@@ -1,15 +1,15 @@
 package com.orion.workshiftmanager.util;
 
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.format.Time;
 
 import org.apache.commons.lang3.StringUtils;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 
 public class Turn {
@@ -40,7 +40,6 @@ public class Turn {
     public static final Turn turnByBundle(Bundle bundle) {
         Turn turn = new Turn();
         turn.setDatariferimento(bundle.getString(IDs.DATA));
-        turn.setcorrelationKey(bundle.getInt(IDs.WEEK_ID), bundle.getInt(IDs.MONTH), bundle.getInt(IDs.YEAR));
         turn.setMounth(bundle.getInt(IDs.MONTH));
         if (bundle.containsKey(IDs.INIZIO_MATTINA))
             turn.setIniziotMattina(intervalIsNotNull(bundle.getString(IDs.INIZIO_MATTINA)) ? bundle.getString(IDs.INIZIO_MATTINA) : null);
@@ -83,26 +82,10 @@ public class Turn {
         this.id = id;
     }
 
-    public void setId(String id) {
-        this.id = Integer.parseInt(id);
-    }
-
-    public void setWeekId(int weekId) {
-        this.weekId = weekId;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public void setDatariferimento(String datariferimento) {
-        this.datariferimento = datariferimento;
-    }
-
     public void setcorrelationKey(int dd, int MM, int yyyy) {
-        Time time = new Time();
-        time.set(dd, MM, yyyy);
-        this.weekId = time.getWeekNumber();
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(yyyy, MM, dd);
+        this.weekId = calendar.get(Calendar.WEEK_OF_YEAR);
         this.year = yyyy;
         this.mounth = MM;
     }
@@ -113,52 +96,8 @@ public class Turn {
         this.mounth = MM;
     }
 
-    public void setInizioMattinaH(Integer inizioMattinaH) {
-        this.inizioMattinaH = inizioMattinaH;
-    }
-
-    public void setFineMattinaH(Integer fineMattinaH) {
-        this.fineMattinaH = fineMattinaH;
-    }
-
-    public void setInizioMattinaM(Integer inizioMattinaM) {
-        this.inizioMattinaM = inizioMattinaM;
-    }
-
-    public void setFineMattinaM(Integer fineMattinaM) {
-        this.fineMattinaM = fineMattinaM;
-    }
-
-    public void setInizioPomeriggioH(Integer inizioPomeriggioH) {
-        this.inizioPomeriggioH = inizioPomeriggioH;
-    }
-
-    public void setInizioPomeriggioM(Integer inizioPomeriggioM) {
-        this.inizioPomeriggioM = inizioPomeriggioM;
-    }
-
-    public void setFinePomeriggioH(Integer finePomeriggioH) {
-        this.finePomeriggioH = finePomeriggioH;
-    }
-
-    public void setFinePomeriggioM(Integer finePomeriggioM) {
-        this.finePomeriggioM = finePomeriggioM;
-    }
-
     public void setHour(double hour) {
         this.hour = hour;
-    }
-
-    public void setHour(String hour) {
-        try {
-            this.hour = new Double(hour).doubleValue();
-        } catch (Throwable t) {
-            this.hour = 0;
-        }
-    }
-
-    public void setMounth(int mounth) {
-        this.mounth = mounth;
     }
 
     public void setHour() {
@@ -180,26 +119,12 @@ public class Turn {
         this.overtime = overtime;
     }
 
-    public void setOvertime(String overtime) {
-        this.overtime = Double.parseDouble(overtime);
-    }
-
     public void setIsImportante(boolean isImportante) {
         this.isImportante = isImportante;
     }
 
     public void setIsImportante(String isImportante) {
-        if ("0".equals(isImportante))
-            this.isImportante = false;
-        else
-            this.isImportante = true;
-    }
-
-    public void setIsImportante(int isImportante) {
-        if (0 == isImportante)
-            this.isImportante = false;
-        else
-            this.isImportante = true;
+        this.isImportante = !"0".equals(isImportante);
     }
 
     // getter
@@ -207,27 +132,56 @@ public class Turn {
         return id;
     }
 
+    public void setId(String id) {
+        this.id = Integer.parseInt(id);
+    }
+
     public int getWeekId() {
         return weekId;
+    }
+
+    public void setWeekId(int weekId) {
+        this.weekId = weekId;
     }
 
     public int getYear() {
         return year;
     }
 
+    public void setYear(int year) {
+        this.year = year;
+    }
+
     public String getDatariferimento() {
         return datariferimento;
+    }
+
+    public void setDatariferimento(String datariferimento) {
+        if (year == 0)
+            year = new Integer(datariferimento.substring(6, 10)).intValue();
+        if (mounth == 0)
+            mounth = new Integer(datariferimento.substring(3, 5)).intValue();
+        if (weekId == 0) {
+            try {
+                SimpleDateFormat sdf = new SimpleDateFormat(PATTERN);
+                Calendar selected = Calendar.getInstance();
+                selected.setTime(sdf.parse(datariferimento));
+                weekId = selected.get(Calendar.WEEK_OF_YEAR);
+            } catch (Exception e) {
+                weekId = 0;
+            }
+        }
+        this.datariferimento = datariferimento;
     }
 
     public String getDataRierimentoDateStr() {
         return datariferimento;
     }
 
-
     public Date getDataRierimentoDate() {
         Date data = null;
         try {
-            data = (Date) new SimpleDateFormat(PATTERN).parse(datariferimento);
+            data = new SimpleDateFormat(PATTERN).parse(datariferimento);
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -238,48 +192,100 @@ public class Turn {
         return inizioMattinaH;
     }
 
+    public void setInizioMattinaH(Integer inizioMattinaH) {
+        this.inizioMattinaH = inizioMattinaH;
+    }
+
     public Integer getInizioMattinaM() {
         return inizioMattinaM;
+    }
+
+    public void setInizioMattinaM(Integer inizioMattinaM) {
+        this.inizioMattinaM = inizioMattinaM;
     }
 
     public Integer getFineMattinaH() {
         return fineMattinaH;
     }
 
+    public void setFineMattinaH(Integer fineMattinaH) {
+        this.fineMattinaH = fineMattinaH;
+    }
+
     public Integer getFineMattinaM() {
         return fineMattinaM;
+    }
+
+    public void setFineMattinaM(Integer fineMattinaM) {
+        this.fineMattinaM = fineMattinaM;
     }
 
     public Integer getFinePomeriggioH() {
         return finePomeriggioH;
     }
 
+    public void setFinePomeriggioH(Integer finePomeriggioH) {
+        this.finePomeriggioH = finePomeriggioH;
+    }
+
     public Integer getFinePomeriggioM() {
         return finePomeriggioM;
+    }
+
+    public void setFinePomeriggioM(Integer finePomeriggioM) {
+        this.finePomeriggioM = finePomeriggioM;
     }
 
     public Integer getInizioPomeriggioH() {
         return inizioPomeriggioH;
     }
 
+    public void setInizioPomeriggioH(Integer inizioPomeriggioH) {
+        this.inizioPomeriggioH = inizioPomeriggioH;
+    }
+
     public Integer getInizioPomeriggioM() {
         return inizioPomeriggioM;
+    }
+
+    public void setInizioPomeriggioM(Integer inizioPomeriggioM) {
+        this.inizioPomeriggioM = inizioPomeriggioM;
     }
 
     public double getHour() {
         return hour;
     }
 
+    public void setHour(String hour) {
+        try {
+            this.hour = new Double(hour).doubleValue();
+        } catch (Throwable t) {
+            this.hour = 0;
+        }
+    }
+
     public double getOvertime() {
         return overtime;
+    }
+
+    public void setOvertime(String overtime) {
+        this.overtime = Double.parseDouble(overtime);
     }
 
     public int getMounth() {
         return mounth;
     }
 
+    public void setMounth(int mounth) {
+        this.mounth = mounth;
+    }
+
     public Boolean getIsImportante() {
         return isImportante;
+    }
+
+    public void setIsImportante(int isImportante) {
+        this.isImportante = 0 != isImportante;
     }
 
     // getter personalizzati
@@ -301,30 +307,12 @@ public class Turn {
         }
     }
 
-    public void setFineMattina(String mattina) {
-        if (mattina != null) {
-            String[] singleTime = new String[2];
-            singleTime = mattina.split(":");
-            setFineMattinaH(Integer.parseInt(singleTime[0]));
-            setFineMattinaM(Integer.parseInt(singleTime[1]));
-        }
-    }
-
     public void setIniziotPomeriggio(String pomeriggio) {
         if (pomeriggio != null) {
             String[] singleTime = new String[2];
             singleTime = pomeriggio.split(":");
             setInizioPomeriggioH(Integer.parseInt(singleTime[0]));
             setInizioPomeriggioM(Integer.parseInt(singleTime[1]));
-        }
-    }
-
-    public void setFinePomeriggio(String pomeriggio) {
-        if (pomeriggio != null) {
-            String[] singleTime = new String[2];
-            singleTime = pomeriggio.split(":");
-            setFinePomeriggioH(Integer.parseInt(singleTime[0]));
-            setFinePomeriggioM(Integer.parseInt(singleTime[1]));
         }
     }
 
@@ -350,6 +338,15 @@ public class Turn {
             return fineMattinaH + ":" + fineMattinaM;
     }
 
+    public void setFineMattina(String mattina) {
+        if (mattina != null) {
+            String[] singleTime = new String[2];
+            singleTime = mattina.split(":");
+            setFineMattinaH(Integer.parseInt(singleTime[0]));
+            setFineMattinaM(Integer.parseInt(singleTime[1]));
+        }
+    }
+
     public String getInizioPomeriggio() {
         if (inizioPomeriggioH != null && inizioPomeriggioM != null) {
             String h = inizioPomeriggioH.toString();
@@ -370,6 +367,15 @@ public class Turn {
             return h + ":" + m;
         } else
             return finePomeriggioH + ":" + finePomeriggioM;
+    }
+
+    public void setFinePomeriggio(String pomeriggio) {
+        if (pomeriggio != null) {
+            String[] singleTime = new String[2];
+            singleTime = pomeriggio.split(":");
+            setFinePomeriggioH(Integer.parseInt(singleTime[0]));
+            setFinePomeriggioM(Integer.parseInt(singleTime[1]));
+        }
     }
 
     public void reset() {

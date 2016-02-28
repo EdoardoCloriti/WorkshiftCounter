@@ -5,7 +5,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.ParseException;
 import android.os.Bundle;
-import android.text.format.Time;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -25,7 +24,6 @@ import com.orion.workshiftmanager.util.db.AccessToDB;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 @SuppressLint("SimpleDateFormat")
@@ -42,7 +40,7 @@ public class ManageWorkShift extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_manage_work_shift);
 
-        CalendarView calendar = (CalendarView) findViewById(R.id.calendar);
+        final CalendarView calendar = (CalendarView) findViewById(R.id.calendar);
 
         Button submit = (Button) findViewById(R.id.submit);
         Button back = (Button) findViewById(R.id.back);
@@ -58,16 +56,16 @@ public class ManageWorkShift extends Activity {
                 Intent add = new Intent(getApplicationContext(), CreateWorkShift.class);
                 Intent visual = new Intent(getApplicationContext(), DisplayWorkShift.class);
                 AccessToDB accessToDB = new AccessToDB();
-                GregorianCalendar day = new GregorianCalendar(year, month, dayOfMonth);
+                Calendar selected = Calendar.getInstance();
+                selected.set(year, month, dayOfMonth);
 
                 SimpleDateFormat sdf = new SimpleDateFormat(Turn.PATTERN);
-                String selectedDay = new String(sdf.format(day.getTime()));
-                if (sysDate.before(day)) {
+                String selectedDay = new String(sdf.format(selected.getTime()));
+                if (sysDate.before(selected)) {
                     Toast.makeText(getApplicationContext(), selectedDay, Toast.LENGTH_SHORT).show();
-                    Time time = new Time();
-                    time.set(dayOfMonth, month, year);
+
                     add.putExtra(IDs.DATA, selectedDay);
-                    add.putExtra(IDs.WEEK_ID, time.getWeekNumber());
+                    add.putExtra(IDs.WEEK_ID, selected.get(Calendar.WEEK_OF_YEAR));
                     add.putExtra(IDs.YEAR, year);
                     add.putExtra(IDs.MONTH, month + 1);
                     startActivityForResult(add, 1);

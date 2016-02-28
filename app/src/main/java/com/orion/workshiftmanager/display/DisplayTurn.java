@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.orion.workshiftmanager.R;
@@ -13,6 +14,7 @@ import com.orion.workshiftmanager.util.db.AccessToDB;
 
 public class DisplayTurn extends Activity {
 
+    private Turn turn = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -20,7 +22,7 @@ public class DisplayTurn extends Activity {
         final Bundle inputBundle = this.getIntent().getExtras();
         String selectedDay = inputBundle.getString("SELECTED_DAY");
         AccessToDB db = new AccessToDB();
-        Turn turn = db.getTurnBySelectedDay(selectedDay, getApplicationContext());
+        turn = db.getTurnBySelectedDay(selectedDay, getApplicationContext());
         setContentView(R.layout.activity_display_turn);
 
         TextView title = (TextView) findViewById(R.id.title);
@@ -67,6 +69,11 @@ public class DisplayTurn extends Activity {
 
             @Override
             public void onClick(View v) {
+                CheckBox cancella = (CheckBox) findViewById(R.id.delete);
+                if (cancella.isChecked()) {
+                    AccessToDB db = new AccessToDB();
+                    db.deleteTurn(turn, getApplicationContext());
+                }
                 finish();
 
             }
