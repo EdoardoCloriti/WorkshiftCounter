@@ -24,6 +24,7 @@ import com.orion.workshiftmanager.util.db.AccessToDB;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.List;
 
@@ -52,6 +53,8 @@ public class ManageWorkShift extends Activity {
 
             @Override
             public void onSelectedDayChange(CalendarView view, int year, int month, int dayOfMonth) {
+                Calendar sysDate = Calendar.getInstance();
+
                 Intent add = new Intent(getApplicationContext(), CreateWorkShift.class);
                 Intent visual = new Intent(getApplicationContext(), DisplayWorkShift.class);
                 AccessToDB accessToDB = new AccessToDB();
@@ -59,14 +62,18 @@ public class ManageWorkShift extends Activity {
 
                 SimpleDateFormat sdf = new SimpleDateFormat(Turn.PATTERN);
                 String selectedDay = new String(sdf.format(day.getTime()));
-                Toast.makeText(getApplicationContext(), selectedDay, Toast.LENGTH_SHORT).show();
-                Time time = new Time();
-                time.set(dayOfMonth, month, year);
-                add.putExtra(IDs.DATA, selectedDay);
-                add.putExtra(IDs.WEEK_ID, time.getWeekNumber());
-                add.putExtra(IDs.YEAR, year);
-                add.putExtra(IDs.MONTH, month + 1);
-                startActivityForResult(add, 1);
+                if (sysDate.before(day)) {
+                    Toast.makeText(getApplicationContext(), selectedDay, Toast.LENGTH_SHORT).show();
+                    Time time = new Time();
+                    time.set(dayOfMonth, month, year);
+                    add.putExtra(IDs.DATA, selectedDay);
+                    add.putExtra(IDs.WEEK_ID, time.getWeekNumber());
+                    add.putExtra(IDs.YEAR, year);
+                    add.putExtra(IDs.MONTH, month + 1);
+                    startActivityForResult(add, 1);
+                } else {
+                    Toast.makeText(getApplicationContext(), "Giorno selezionato non disponibile", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
