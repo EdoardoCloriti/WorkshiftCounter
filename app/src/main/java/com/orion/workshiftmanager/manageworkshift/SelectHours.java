@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.CheckBox;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
@@ -62,16 +61,10 @@ public class SelectHours extends Activity {
             public void onClick(View v) {
                 TimePicker orarioInizio = (TimePicker) findViewById(R.id.inizio);
                 TimePicker orarioFine = (TimePicker) findViewById(R.id.fine);
-                CheckBox importante = (CheckBox) findViewById(R.id.riunione);
                 Integer hourStart = orarioInizio.getCurrentHour();
                 Integer minuteStart = orarioInizio.getCurrentMinute();
                 Integer hourFinish = orarioFine.getCurrentHour();
                 Integer minuteFinish = orarioFine.getCurrentMinute();
-                if (importante.isChecked()) {
-                    outputIntent.putExtra(IDs.PRIORITY, 1);
-                } else {
-                    outputIntent.putExtra(IDs.PRIORITY, 0);
-                }
                 outputIntent.putExtra(IDs.PART_OF_DAY, h);
                 if ("am".equalsIgnoreCase(h))
                     outputIntent.putExtra(IDs.ORARIO_MATTINA, manageAM(hourStart, minuteStart, hourFinish, minuteFinish));

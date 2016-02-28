@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.orion.workshiftmanager.R;
@@ -64,6 +65,8 @@ public class CreateWorkShift extends Activity {
 
             @Override
             public void onClick(View v) {
+                CheckBox priority = (CheckBox) findViewById(R.id.priority);
+                outputIntent.putExtra(IDs.PRIORITY, priority.isChecked() ? 1 : 0);
                 setResult(1, outputIntent);
                 finish();
             }

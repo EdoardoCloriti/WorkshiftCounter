@@ -49,6 +49,15 @@
             android:layout_below="@+id/inserisci_mattina"
             android:text="@string/inserisci_pomeriggio" />
 
+        <CheckBox
+            android:id="@+id/priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/inserisci_pomeriggio"
+            android:checked="false"
+            android:text="@string/importante" />
+
         <!-- CheckBox
             android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
