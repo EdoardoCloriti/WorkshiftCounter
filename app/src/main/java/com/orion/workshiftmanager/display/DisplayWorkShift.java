@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.Toast;
@@ -21,7 +22,10 @@ public class DisplayWorkShift extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_display_work_shift);
 
         CalendarView calendar = (CalendarView) findViewById(R.id.calendar);
