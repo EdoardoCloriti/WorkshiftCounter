@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/riunione"
+            android:layout_below="@+id/fine"
             android:text="@string/submit_upper" />
 
         <Button
@@ -74,13 +74,6 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/textView3" />
 
-        <CheckBox
-            android:id="@+id/riunione"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/fine"
-            android:text="@string/importante" />
 
     </RelativeLayout>
 
