@@ -1,10 +1,6 @@
 package com.orion.workshiftmanager.util.db;
 
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.Cursor;
@@ -14,6 +10,10 @@ import com.orion.workshiftmanager.util.NullObjectStrategy;
 import com.orion.workshiftmanager.util.Property;
 import com.orion.workshiftmanager.util.Turn;
 import com.orion.workshiftmanager.util.Week;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 @SuppressLint("UseValueOf")
 public class AccessToDB {
@@ -36,16 +36,16 @@ public class AccessToDB {
                 dbAdapter.close();
             }
             dbAdapter.close();
-            if ((week = getWeekbySelectedDay(turn, context)) == null) {
+            if ((week = getWeeekByCorrelationId(turn.getYear(), turn.getWeekId(), context)) == null) {
                 week = new Week(context);
                 week.setWeekId(turn.getWeekId());
                 week.setYear(turn.getYear());
                 week.setMounth(turn.getMounth());
-                week.setHour(turn.getHour());
+                week.addHour(turn.getHour());
                 week.setExtraHour(turn.getOvertime());
                 insertWeek(week, context);
             } else {
-                week.setHour(turn.getHour());
+                week.addHour(turn.getHour());
                 week.setExtraHour(turn.getOvertime());
                 updateWeek(week, context);
             }
@@ -53,6 +53,122 @@ public class AccessToDB {
             if (dbAdapter != null)
                 dbAdapter.close();
         }
+    }
+
+    public boolean deleteTurnAndUpdateWeek(Turn turn, Context context) {
+        dbAdapter = new DbAdapter(context);
+        try {
+            dbAdapter.open();
+            if (turn.getId() != 0 && dbAdapter.deleteTurn(turn.getId())) {
+                Week week = getWeeekByCorrelationId(turn.getYear(), turn.getWeekId(), context);
+                if (week != null) {
+                    double hour = week.getHour() - turn.getHour();
+                    double extra = week.getExtraHour() - turn.getOvertime();
+                    week.setHours(hour);
+                    week.setExtraHour(extra);
+                    updateWeek(week, context);
+                }
+                return true;
+            }
+            return false;
+        } finally {
+            dbAdapter.close();
+        }
+    }
+
+    public boolean deleteTurn(Turn turn, Context context) {
+        dbAdapter = new DbAdapter(context);
+        try {
+            dbAdapter.open();
+            return dbAdapter.deleteTurn(turn.getId());
+        } finally {
+            dbAdapter.close();
+        }
+    }
+
+    public void deleteTurns(List<Turn> turns, Context context) {
+        for (Turn turn : turns) {
+            deleteTurn(turn, context);
+        }
+    }
+
+    public void clearTurnByYear(int year, Context context) {
+        List<Turn> turns = new ArrayList<Turn>();
+        dbAdapter = new DbAdapter(context);
+        try {
+            dbAdapter.open();
+            Cursor cursor = dbAdapter.fetchTurnByYear(year);
+            if (cursor != null && cursor.moveToFirst()) {
+                do {
+                    Turn turn = new Turn();
+                    turn.setId(cursor.getString(cursor.getColumnIndex(DbAdapter.ID)));
+                    turn.setDatariferimento(cursor.getString(cursor.getColumnIndex(DbAdapter.REFERENCE_DATE)));
+                    if (!isNull(cursor, DbAdapter.MATTINA_INIZIO))
+                        turn.setIniziotMattina(cursor.getString(cursor.getColumnIndex(DbAdapter.MATTINA_INIZIO)));
+                    if (!isNull(cursor, DbAdapter.MATTINA_FINE))
+                        turn.setFineMattina(cursor.getString(cursor.getColumnIndex(DbAdapter.MATTINA_FINE)));
+                    if (!isNull(cursor, DbAdapter.POMERIGGIO_INIZIO))
+                        turn.setIniziotPomeriggio(cursor.getString(cursor.getColumnIndex(DbAdapter.POMERIGGIO_INIZIO)));
+                    if (!isNull(cursor, DbAdapter.POMERIGGIO_FINE))
+                        turn.setFinePomeriggio(cursor.getString(cursor.getColumnIndex(DbAdapter.POMERIGGIO_FINE)));
+                    if (!isNull(cursor, DbAdapter.OVERTIME))
+                        turn.setOvertime(cursor.getString(cursor.getColumnIndex(DbAdapter.OVERTIME)));
+                    if (!isNull(cursor, DbAdapter.HOUR))
+                        turn.setHour(cursor.getString(cursor.getColumnIndex(DbAdapter.HOUR)));
+                    turn.setIsImportante(cursor.getString(cursor.getColumnIndex(DbAdapter.PRIORITY)));
+                } while (cursor.moveToNext());
+                cursor.close();
+            }
+            deleteTurns(turns, context);
+        } finally {
+            if (dbAdapter != null)
+                dbAdapter.close();
+        }
+
+    }
+
+    public void deleteWeek(Week week, Context context) {
+        dbAdapter = new DbAdapter(context);
+        try {
+            dbAdapter.open();
+            dbAdapter.deleteWeek(week.getId());
+        } finally {
+            dbAdapter.close();
+        }
+    }
+
+    public void deleteWeeks(List<Week> weeks, Context context) {
+        for (Week week : weeks) {
+            deleteWeek(week, context);
+        }
+    }
+
+    public void cleanWeekByYearToYear(int yearFrom, int yearTo, Context context) {
+        List<Week> weeks = new ArrayList<Week>();
+        try {
+            dbAdapter.open();
+            while (yearFrom < yearTo) {
+                Cursor cursor = dbAdapter.fetchMounthByYear(yearFrom);
+                if (cursor != null && cursor.moveToFirst()) {
+                    do {
+                        Week week = new Week(context);
+                        week.setId(cursor.getInt(cursor.getColumnIndex(DbAdapter.ID)));
+                        week.setWeekId(cursor.getInt(cursor.getColumnIndex(DbAdapter.WEEK_ID)));
+                        week.setYear(cursor.getInt(cursor.getColumnIndex(DbAdapter.YEAR)));
+                        week.setMounth(cursor.getInt(cursor.getColumnIndex(DbAdapter.MOUNTH)));
+                        week.setHours(cursor.getDouble(cursor.getColumnIndex(DbAdapter.HOUR)));
+                        week.setExtraHour(cursor.getDouble(cursor.getColumnIndex(DbAdapter.OVERTIME)));
+                        weeks.add(week);
+                    } while (cursor.moveToNext());
+                    cursor.close();
+                }
+            }
+            deleteWeeks(weeks, context);
+        } finally {
+            if (dbAdapter != null)
+                dbAdapter.close();
+        }
+
     }
 
     public int insertTurns(List<Turn> turns, Context context) throws ParseException {
@@ -80,11 +196,11 @@ public class AccessToDB {
                     week.setWeekId(turn.getWeekId());
                     week.setYear(turn.getYear());
                     week.setMounth(turn.getMounth());
-                    week.setHour(turn.getHour());
+                    week.addHour(turn.getHour());
                     week.setExtraHour(turn.getOvertime());
                     insertWeek(week, context);
                 } else {
-                    week.setHour(turn.getHour());
+                    week.addHour(turn.getHour());
                     week.setExtraHour(turn.getOvertime());
                     updateWeek(week, context);
                 }
@@ -163,21 +279,21 @@ public class AccessToDB {
         }
     }
 
-    public Week getWeeekByCorrelationId(int year,int weekid,Context context){
+    public Week getWeeekByCorrelationId(int year, int weekid, Context context) {
         Cursor cursor = null;
         try {
             dbAdapter = new DbAdapter(context);
 
             Week week = new Week(context);
             dbAdapter.open();
-            cursor = dbAdapter.fetchWeekByCorrelationID(year,weekid);
+            cursor = dbAdapter.fetchWeekByCorrelationID(year, weekid);
             if (cursor != null && cursor.moveToFirst()) {
-                week.setId(cursor.getInt(cursor.getColumnIndex(dbAdapter.ID)));
-                week.setWeekId(cursor.getInt(cursor.getColumnIndex(dbAdapter.WEEK_ID)));
-                week.setYear(cursor.getInt(cursor.getColumnIndex(dbAdapter.YEAR)));
-                week.setMounth(cursor.getInt(cursor.getColumnIndex(dbAdapter.MOUNTH)));
-                week.setHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.HOUR)));
-                week.setExtraHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.OVERTIME)));
+                week.setId(cursor.getInt(cursor.getColumnIndex(DbAdapter.ID)));
+                week.setWeekId(cursor.getInt(cursor.getColumnIndex(DbAdapter.WEEK_ID)));
+                week.setYear(cursor.getInt(cursor.getColumnIndex(DbAdapter.YEAR)));
+                week.setMounth(cursor.getInt(cursor.getColumnIndex(DbAdapter.MOUNTH)));
+                week.setHours(cursor.getDouble(cursor.getColumnIndex(DbAdapter.HOUR)));
+                week.setExtraHour(cursor.getDouble(cursor.getColumnIndex(DbAdapter.OVERTIME)));
                 dbAdapter.close();
                 return week;
             } else {
@@ -206,7 +322,7 @@ public class AccessToDB {
                 week.setWeekId(cursor.getInt(cursor.getColumnIndex(dbAdapter.WEEK_ID)));
                 week.setYear(cursor.getInt(cursor.getColumnIndex(dbAdapter.YEAR)));
                 week.setMounth(cursor.getInt(cursor.getColumnIndex(dbAdapter.MOUNTH)));
-                week.setHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.HOUR)));
+                week.addHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.HOUR)));
                 week.setExtraHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.OVERTIME)));
                 dbAdapter.close();
                 return week;
@@ -240,7 +356,7 @@ public class AccessToDB {
                     week.setWeekId(cursor.getInt(cursor.getColumnIndex(dbAdapter.WEEK_ID)));
                     week.setYear(cursor.getInt(cursor.getColumnIndex(dbAdapter.YEAR)));
                     week.setMounth(cursor.getInt(cursor.getColumnIndex(dbAdapter.MOUNTH)));
-                    week.setHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.HOUR)));
+                    week.addHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.HOUR)));
                     week.setExtraHour(cursor.getDouble(cursor.getColumnIndex(dbAdapter.OVERTIME)));
                     weekList.add(week);
 
@@ -275,7 +391,7 @@ public class AccessToDB {
                     week.setWeekId(cursor.getColumnIndex(dbAdapter.WEEK_ID));
                     week.setYear(cursor.getColumnIndex(dbAdapter.YEAR));
                     week.setYear(cursor.getColumnIndex(dbAdapter.MOUNTH));
-                    week.setHour(cursor.getColumnIndex(dbAdapter.HOUR));
+                    week.addHour(cursor.getColumnIndex(dbAdapter.HOUR));
                     week.setExtraHour(cursor.getColumnIndex(dbAdapter.OVERTIME));
                     weekList.add(week);
 
