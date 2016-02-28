@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:2:1-90:12
 	xmlns:android
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -75,7 +75,7 @@ ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:24:30-85
 application
-ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:26:5-83:19
+ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:26:5-88:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:22.2.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-identity:7.8.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.8.0\AndroidManifest.xml:19:5-20
@@ -184,11 +184,23 @@ ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:77:13-59
 activity#com.orion.workshiftmanager.DisplaySettimana
-ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:79:9-81:81
+ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:79:9-81:72
 	android:label
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:81:13-69
 	android:name
 		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:80:13-45
+activity#com.orion.workshiftmanager.display.DisplayTurn
+ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:82:9-84:67
+	android:label
+		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:84:13-64
+	android:name
+		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:83:13-48
+activity#com.orion.workshiftmanager.DisplayHourWeek
+ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:85:9-87:81
+	android:label
+		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:87:13-69
+	android:name
+		ADDED from W:\WorkspaceStudio\WorkshiftCounter\app\src\main\AndroidManifest.xml:86:13-44
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-base:7.8.0] W:\WorkspaceStudio\WorkshiftCounter\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.8.0\AndroidManifest.xml:21:9-23:69
 	android:name

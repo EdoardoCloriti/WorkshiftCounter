@@ -79,6 +79,12 @@
         <activity
             android:name="com.orion.workshiftmanager.DisplaySettimana"
             android:label="@string/title_activity_display_settimana" />
+        <activity
+            android:name="com.orion.workshiftmanager.display.DisplayTurn"
+            android:label="@string/title_activity_display_turn" />
+        <activity
+            android:name="com.orion.workshiftmanager.DisplayHourWeek"
+            android:label="@string/title_activity_display_hour_week" />
 
         <meta-data
             android:name="com.google.android.gms.version"

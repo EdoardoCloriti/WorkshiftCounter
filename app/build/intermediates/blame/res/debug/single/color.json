@@ -8,11 +8,11 @@
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\color\\abc_search_url_text_holo.xml"
     },
     {
-        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
-        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\color\\common_signin_btn_text_dark.xml"
-    },
-    {
         "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
         "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "W:\\WorkspaceStudio\\WorkshiftCounter\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.8.0\\res\\color\\common_signin_btn_text_dark.xml"
     }
 ]

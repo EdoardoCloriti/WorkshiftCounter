@@ -385,7 +385,9 @@
     <string name="title_activity_create_work_shift">CreateWorkShift</string>
     <string name="title_activity_development_dbutility">DevelopmentDBUtility</string>
     <string name="title_activity_display">Display</string>
+    <string name="title_activity_display_hour_week">DisplayHourWeek</string>
     <string name="title_activity_display_settimana">DisplaySettimana</string>
+    <string name="title_activity_display_turn">DisplayTurn</string>
     <string name="title_activity_display_work_shift">DisplayWorkShift</string>
     <string name="title_activity_displays_mounth">DisplaysMounth</string>
     <string name="title_activity_displays_work_shift">DisplaysWorkShift</string>
